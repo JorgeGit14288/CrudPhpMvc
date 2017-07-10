@@ -24,4 +24,11 @@ class HomeController {
         require_once 'Views/Shared/Footer.php';
        // echo 'Se requiere la vista Index de el controlador Home';
     }
+    public function Error()
+    {
+        require_once 'Views/Shared/Head.php';
+        require_once 'Views/Home/Error.php';
+        require_once 'Views/Shared/Footer.php';   
+    }
+    
 }

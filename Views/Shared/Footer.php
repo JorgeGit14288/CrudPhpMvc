@@ -1,16 +1,22 @@
-            <div class="row">
-                <div class="col-xs-12">
-                    <hr />
-                    <footer class="text-center well">
-                        <p>Ejemplo desarrollado por <a href="http://anexsoft.com">Anexsoft</a></p>
-                    </footer>                
-                </div>    
             </div>
-        </div>
+            <!-- /.container-fluid -->
 
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/jquery-ui/jquery-ui.min.js"></script>
-        <script src="assets/js/ini.js"></script>
-        <script src="assets/js/jquery.anexsoft-validator.js"></script>
-    </body>
+        </div>
+        <!-- /#page-wrapper -->
+    </div>
+    <!-- /#wrapper -->    
+
+<!-- jQuery -->
+    <script src="assets/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="assets/js/plugins/morris/raphael.min.js"></script>
+    <script src="assets/js/plugins/morris/morris.min.js"></script>
+    <script src="assets/js/plugins/morris/morris-data.js"></script>
+
+</body>
+
 </html>
