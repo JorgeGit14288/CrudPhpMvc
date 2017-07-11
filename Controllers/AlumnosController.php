@@ -1,5 +1,6 @@
 <?php
-
+require_once 'Dao/AlumnosDao.php';
+require_once 'Model/Alumnos.php';
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -19,6 +20,11 @@ class AlumnosController {
     }
     public  function Index()
     {
+        //realizamos la consulta a la base de datos
+      
+        $dao = new AlumnosDao();
+        $alumnos = $dao->Listar();
+        
         require_once 'Views/Shared/Head.php';
         require_once 'Views/Alumnos/Index.php';
         require_once 'Views/Shared/Footer.php';

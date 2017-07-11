@@ -1,0 +1,13 @@
+{
+    "name": "vendor/creando-mvc",
+    "description": "Description of project CreandoMvc.",
+    "authors": [
+        {
+            "name": "Jorge Fuentes",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "components/jquery": "dev-master"
+    }
+}
